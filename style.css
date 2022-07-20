@@ -1,0 +1,83 @@
+body{
+    background: #000;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+    width: 70%;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 8px;
+  }
+  .result {
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+  }
+  .input {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    height: 45px;
+    font-family: "Press Start 2P", serif;
+    font-size: 1.6rem;
+  }
+  .valueop {
+    /* background-color: rgb(243, 98, 9); */
+    background: white;
+    color: black;
+  }
+  h1{
+    color: white;
+    margin-bottom: 40px;
+  }
+  .valueR {
+    /* background-color: rgb(25, 213, 103); */
+    background: white;
+    color: black;
+  }
+  .valueEq {
+    /* background-color: #7989c8; */
+    background: white;
+    width: 74%;
+  }
+  .flex-row {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+  }
+  button {
+    width: 20%;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    border-radius: 44px;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: rgb(108, 129, 129);
+    outline: none;
+    border: 2px solid rgb(93, 93, 68);
+    color: black;
+  }
